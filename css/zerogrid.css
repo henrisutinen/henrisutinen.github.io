@@ -1087,10 +1087,7 @@ table {
     font-family: webly;
     src:url(../fonts/weblysleekuil.ttf);
 }
-@font-face {
-    font-family: kompani;
-    src:url(../fonts/KompaniHHF.otf);
-}
+
 @font-face {
     font-family: kompani;
     src:url(../fonts/KompaniHHF.otf);
@@ -1101,5 +1098,5 @@ table {
 }
 @font-face {
 	font-family:texgyre;
-	src:url(../fonts/texgyreschola-regular.otf);
+	src:url(../fonts/Neou-bold.ttf);
 }
