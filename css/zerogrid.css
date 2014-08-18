@@ -605,7 +605,7 @@ body {
 .zerogrid .text-agile {
 	line-height: 65px;
 	color: #f2f2f2;
-	font-family:texgyre;
+	font-family:Neou;
 	font-size: 62px;
 	margin-left: 50px;
 	margin-right: 35px;
@@ -1097,6 +1097,6 @@ table {
 	src:url(../fonts/SourceSansPro-Regular.ttf);
 }
 @font-face {
-	font-family:texgyre;
+	font-family:Neou;
 	src:url(../fonts/Neou-bold.ttf);
 }
