@@ -65,6 +65,7 @@ Author URI: http://www.zerotheme.com/
 	width: 50%;
 	background-image:url(../img/leds.jpg);
 	background-size:cover;
+	height: 506px;
 }
 .zerogrid-full .col-1-2-transparent {
 	width: 50%;
@@ -304,7 +305,7 @@ Author URI: http://www.zerotheme.com/
 	font-size: 20px;
 	margin-left:10px;
 	margin-right:10px;
-	font-family:texgyre;
+	font-family:Neou;
 	background-color: #transparent;
 	visibility:hidden;
 	opacity: 0;
@@ -328,32 +329,32 @@ Author URI: http://www.zerotheme.com/
 .zerogrid-full #photo1 {
 	background-image:url(../img/responsiveness_low.jpg);
 	background-size: cover;
-	height: 300px;
+	height: 400px;
 }
 .zerogrid-full #photo2 {
 	background-image:url(../img/lotta.jpg);
 	background-size: cover;
-	height: 300px;
+	height: 400px;
 }
 .zerogrid-full #photo3 {
-	background-image:url(../img/logo_design.jpg);
+	background-image:url(../img/3logos.jpg);
 	background-size: cover;
-	height: 300px;
+	height: 400px;
 }
 .zerogrid-full #photo4 {
 	background-image:url(../img/logo_design2.jpg);
 	background-size: cover;
-	height: 300px;
+	height: 400px;
 }
 .zerogrid-full #photo5 {
 	background-image:url(../img/unity_mockup_logo.png);
 	background-size: cover;
-	height: 300px;
+	height: 400px;
 }
 .zerogrid-full #photo6 {
 	background-image:url(../img/databases.jpg);
 	background-size: cover;
-	height: 300px;
+	height: 400px;
 }
 .zerogrid-full #logo1:hover {
 	background-image:url(../img/unity_btn_orange.png);
@@ -380,7 +381,7 @@ Author URI: http://www.zerotheme.com/
 	transition: background-image 0.25s ease-in;
 }
 #photo3:hover {
-	background-image:url(../img/logo_design_hover.jpg);
+	background-image:url(../img/3logos_hover.jpg);
 	transition: background-image 0.25s ease-in;
 }
 #photo4:hover {
@@ -519,7 +520,7 @@ Author URI: http://www.zerotheme.com/
 	font-size:24px !important;
 	margin-top: 60px !important;
 }
-#photo1, #photo2, #photo3, #photo4 {
+#photo1, #photo2, #photo3, #photo4, #photo5, #photo6 {
 	height: 180px !important;	
 }
 .zerogrid-full .text-section {
@@ -733,8 +734,9 @@ iframe {
 	font-size:18px !important;
 	margin-top: 40px !important;
 }
-#photo1, #photo2, #photo3, #photo4 {
-	height: 150px !important;	
+#photo1, #photo2, #photo3, #photo4, #photo5, #photo6, #photo7, #photo8 {
+	height: 225px !important;
+	width: 50% !important;
 }
 .zerogrid-full .text-section {
 	margin: 20px 50px 20px 50px !important;
@@ -895,8 +897,9 @@ iframe {
 	display:block!important;
 	
 }
-#photo1, #photo2, #photo3, #photo4 {
-	height: 100px !important;	
+#photo1, #photo2, #photo3, #photo4, #photo5, #photo6, #photo7, #photo8 {
+	height: 150px !important;
+	width: 50% !important;	
 }
 #logo1, #logo2, #logo3, #logo4 {
 	height: 120px !important;
@@ -1279,7 +1282,8 @@ iframe {
 	display:none !important;
 	}
 #photo1, #photo2, #photo3, #photo4, #photo5, #photo6, photo7, #photo8 {
-	height: 75px !important;
+	height: 150px !important;
+	width: 50% !important;
 }
 .zerogrid-full .logoshere {
 	font-size:12px !important;
@@ -1351,14 +1355,14 @@ body {
 }
 .zerogrid-full footer {
 	background-color: #2E2E2E;
-	height: 75px;
+	height: 50px;
 	clear: both;
 	text-align:center;
 }
 .zerogrid-full footer p {
 	color: #FFF;
 	font-size: 12px;
-	line-height: 75px;
+	line-height: 50px;
 	font-family:webly;
 }
 
@@ -1728,21 +1732,21 @@ i:hover {
 	color: #8AB839;
 	margin-top: 50px;
 	margin-left: 100px;
-	font-family: texgyre;
+	font-family: Neou;
 }
 .form h3 {
 	font-size:28px;
 	color: #8AB839;
 	margin-top: 50px;
 	margin-left: -40px;
-	font-family: texgyre;
+	font-family: Neou;
 }
 .social h3 {
 	font-size:28px;
 	color: #8AB839;
 	margin-top: 50px;
 	margin-left: -40px;
-	font-family: texgyre;
+	font-family: Neou;
 	line-height: 28px;
 }
 .base p {
