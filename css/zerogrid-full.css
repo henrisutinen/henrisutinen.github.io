@@ -342,7 +342,7 @@ Author URI: http://www.zerotheme.com/
 	height: 400px;
 }
 .zerogrid-full #photo4 {
-	background-image:url(../img/logo_design2.jpg);
+	background-image:url(../img/softwares.png);
 	background-size: cover;
 	height: 400px;
 }
@@ -385,7 +385,7 @@ Author URI: http://www.zerotheme.com/
 	transition: background-image 0.25s ease-in;
 }
 #photo4:hover {
-	background-image:url(../img/logo_design2_hover.jpg);
+	background-image:url(../img/softwares_hover.png);
 	transition: background-image 0.25s ease-in;
 }
 #photo5:hover {
