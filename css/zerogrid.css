@@ -611,6 +611,8 @@ body {
 	margin-right: 35px;
 	margin-top: 80px;
 	border-top: 8px solid #8AB839;
+	border-bottom: 8px solid #8AB839;
+	border-left: 8px solid #8AB839;
 }
 .zerogrid .text-success {
 	line-height: 45px;

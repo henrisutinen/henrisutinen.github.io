@@ -39,7 +39,7 @@ Author URI: http://www.zerotheme.com/
 }
 .zerogrid-full .row {
 	zoom: 1;
-	background-color: #fff;
+	background-color: #f2f2f2;
 }
 .zerogrid-full .wrap-col {
 	margin: 10px;
@@ -266,7 +266,7 @@ Author URI: http://www.zerotheme.com/
 	font-size: 38px;
 	font-family:Neou;
 	text-align: left;
-	margin: 100px 25% 55px 25%;
+	margin: 100px 15% 55px 15%;
 	color: #8AB839;
 }
 .zerogrid-full .orangetext-work {
@@ -407,6 +407,21 @@ Author URI: http://www.zerotheme.com/
 	margin: 0 auto;
 }
 
+@media only screen and (min-width: 1025px) and (max-width: 1400px) {
+	#photo1, #photo2, #photo3, #photo4, #photo5, #photo6 {
+	height: 240px !important;	
+}
+}
+@media only screen and (min-width: 1401px) and (max-width: 1600px) {
+	#photo1, #photo2, #photo3, #photo4, #photo5, #photo6 {
+	height: 300px !important;	
+}
+}
+@media only screen and (min-width: 1601px) and (max-width: 1780px) {
+	#photo1, #photo2, #photo3, #photo4, #photo5, #photo6 {
+	height: 333px !important;	
+}
+}
 @media only screen and (min-width: 1025px) {
 
 .zerogrid-full .col-full-example1, .col-full-example2, .col-full-example5 {
@@ -434,7 +449,7 @@ Author URI: http://www.zerotheme.com/
 	margin-right: 20px !important;
 }
 .zerogrid-full .context {
-	margin: 30px 25% 20px 25% !important;
+	margin: 30px 15% 20px 15% !important;
 }
 .zerogrid-full .text-section {
 	/*margin-left: 140px !important;*/
@@ -684,6 +699,7 @@ iframe {
 }
 .zerogrid-full .col-1-3, .zerogrid-full .col-2-3, .zerogrid-full .col-1-3-1 {
 	width: 100%!important;
+	background-color: #f2f2f2 !important;
 }
 .zerogrid-full .col-1-2-photo {
 	display:none;
@@ -873,7 +889,7 @@ iframe {
 }
 .zerogrid-full .col-1-3, .zerogrid-full .col-2-3, .zerogrid-full .col-1-3-1 {
 	width: 100%!important;
-	background-color: #fff;
+	background-color: #f2f2f2!important;
 }
 .zerogrid-full .col-1-2-photo {
 	display:none;
@@ -1066,7 +1082,7 @@ iframe {
 	display:block!important;
 }
 #photo1, #photo2, #photo3, #photo4, #photo5, #photo6, #photo7, #photo8 {
-	height: 100px !important;	
+	height: 90px !important;	
 }
 .zerogrid-full .col-full-all-logos {
 	display:none !important;
@@ -1099,12 +1115,11 @@ iframe {
 .zerogrid-full .col-1-2 {
 	opacity:1.0;
 	font-size:16px;
-	background-color:#fff!important;
 }
 .zerogrid-full .col-1-3 {
 	opacity:1.0;
 	font-size:16px;
-	background-color:#fff!important;
+	background-color:#f2f2f2!important;
 }
 #picheight {
 	height:275px!important;
@@ -1282,7 +1297,7 @@ iframe {
 	display:none !important;
 	}
 #photo1, #photo2, #photo3, #photo4, #photo5, #photo6, photo7, #photo8 {
-	height: 150px !important;
+	height: 140px !important;
 	width: 50% !important;
 }
 .zerogrid-full .logoshere {
