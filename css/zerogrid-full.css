@@ -865,14 +865,21 @@ iframe {
 	margin-top: 300px !important;
 	margin-left:-20px !important;
 }
-.zerogrid-full .form {
-	width:50% !important;
+.zerogrid-full .form , .zerogrid-full .base , .zerogrid-full .social {
+	width:33.33% !important;
 }
-.zerogrid-full .base {
-	width:50% !important;
-}
-.zerogrid-full .base h3, .zerogrid-full .base p, .zerogrid-full .twitter {
+
+.zerogrid-full .base h3, .zerogrid-full .base p {
 	margin-left:50px !important;
+}
+.zerogrid-full .base p {
+	font-size:14px !important;
+}
+.fa-3x {
+	font-size: 2em !important;
+}
+.zerogrid-full .base h3 , .zerogrid-full .social h3 , .zerogrid-full .form h3 {
+	font-size: 22px !important;
 }
 iframe {
 	height:300px!important;
@@ -914,7 +921,7 @@ iframe {
 	
 }
 #photo1, #photo2, #photo3, #photo4, #photo5, #photo6, #photo7, #photo8 {
-	height: 150px !important;
+	height: 190px !important;
 	width: 50% !important;	
 }
 #logo1, #logo2, #logo3, #logo4 {
@@ -1064,8 +1071,27 @@ iframe {
 	margin-top: 340px !important;
 	margin-left:-20px !important;
 }
-.zerogrid-full .base h3, .zerogrid-full .base p, .zerogrid-full .twitter {
+.zerogrid-full .base h3, .zerogrid-full .base p {
 	margin-left:50px !important;
+}
+.zerogrid-full .form , .zerogrid-full .base , .zerogrid-full .social {
+	width:33.33% !important;
+}
+
+.zerogrid-full .base h3, .zerogrid-full .base p {
+	margin-left:50px !important;
+}
+.zerogrid-full .base p {
+	font-size:14px !important;
+}
+.social, .base, .form {
+	height: 300px !important;
+}
+.fa-3x {
+	font-size: 2em !important;
+}
+.zerogrid-full .base h3 , .zerogrid-full .social h3 , .zerogrid-full .form h3 {
+	font-size: 22px !important;
 }
 }
 
@@ -1080,6 +1106,21 @@ iframe {
 }
 .zerogrid-full .col-1-4 img, .zerogrid-full .col-1-4-1 img{
 	display:block!important;
+}
+.zerogrid-full .base h3 , .zerogrid-full .social h3 , .zerogrid-full .form h3 {
+	font-size: 22px !important;
+}
+.social, .base, .form {
+	height: 230px !important;
+}
+.zerogrid-full .social h3 {
+	margin-left: -40px !important;
+}
+.zerogrid-full .base p {
+	font-size:14px !important;
+}
+.fa-3x {
+	font-size: 2em !important;
 }
 #photo1, #photo2, #photo3, #photo4, #photo5, #photo6, #photo7, #photo8 {
 	height: 90px !important;	
@@ -1417,6 +1458,7 @@ table {
 .zerogrid-full .n4sbutton-wrapper {
 	text-align: center;
 	background-color: #f2f2f2;
+	width:100%;
 }
 .zerogrid-full .n4sbutton {
 	margin-bottom: 40px;
@@ -1760,7 +1802,7 @@ i:hover {
 	font-size:28px;
 	color: #8AB839;
 	margin-top: 50px;
-	margin-left: -40px;
+	margin-left: 10px;
 	font-family: Neou;
 	line-height: 28px;
 }
@@ -1805,7 +1847,7 @@ input, textarea, select {
 	width: 150px;
 	background-size:cover;
 	margin: 20px auto;
-	background-image:url(../img/programming_logo.svg);
+	background-image:url(../img/programming_logo.png);
 }
 
 .html_logo {
@@ -1813,7 +1855,7 @@ input, textarea, select {
 	width: 150px;
 	background-size:cover;
 	margin: 20px auto;
-	background-image:url(../img/html_logo.svg);
+	background-image:url(../img/html_logo.png);
 }
 .av_logo {
 	height: 150px;

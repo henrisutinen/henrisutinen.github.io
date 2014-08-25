@@ -610,9 +610,8 @@ body {
 	margin-left: 50px;
 	margin-right: 35px;
 	margin-top: 80px;
-	border-top: 8px solid #8AB839;
-	border-bottom: 8px solid #8AB839;
-	border-left: 8px solid #8AB839;
+	border-bottom: 4px solid #8AB839;
+
 }
 .zerogrid .text-success {
 	line-height: 45px;
@@ -638,7 +637,7 @@ body {
 	line-height: 40px;
 	text-align: center;
 	font-family:texgyre;
-	color: #CCCCCC;
+	color: #fff;
 	font-size: 42px;
 	padding-left: 0px;
 	padding-right: 0px;
@@ -1003,7 +1002,7 @@ table {
 	color: #f2f2f2;
 	font-family:source;
 	font-weight:lighter;
-	font-size:12px;
+	font-size:14px;
 }
 .zerogrid .nav ul li a:hover {
 	color: #8AB839;
