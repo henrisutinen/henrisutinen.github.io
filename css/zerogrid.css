@@ -1099,9 +1099,9 @@ table {
 }
 @font-face {
   font-family: Neou;
-  src:url(../fonts/neou-bold.eot)
-  src: url(../fonts/neou-bold.eot?#iefix) format('embedded-opentype'),
-       url(../fonts/neou-bold.woff) format('woff'),
-       url(../fonts/neou-bold.ttf) format('truetype'),
-       url(../fonts/neou-bold.svg#Neou-Bold) format('svg');
+  src: url('../fonts/neou-bold.eot')
+  src: url('../fonts/neou-bold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/neou-bold.woff') format('woff'),
+       url('../fonts/neou-bold.ttf') format('truetype'),
+       url('../fonts/neou-bold.svg#Neou-Bold') format('svg');
 }
