@@ -1111,7 +1111,7 @@ iframe {
 	font-size: 22px !important;
 }
 .social {
-	height: 140px !important;
+	height: 120px !important;
 }
 .form {
 	height: 210px !important;
@@ -1124,6 +1124,9 @@ iframe {
 }
 .zerogrid-full .base p {
 	font-size:14px !important;
+}
+i {
+	margin-top: 10px !important; 
 }
 .fa-3x {
 	font-size: 2em !important;
