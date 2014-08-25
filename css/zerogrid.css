@@ -1098,7 +1098,7 @@ table {
 	src:url(../fonts/SourceSansPro-Regular.ttf);
 }
 @font-face {
-  font-family: 'Neou';
+  font-family: Neou;
   src:url(../fonts/neou-bold.eot)
   src: url(../fonts/neou-bold.eot?#iefix) format('embedded-opentype'),
        url(../fonts/neou-bold.woff) format('woff'),
