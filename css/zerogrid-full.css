@@ -1110,8 +1110,14 @@ iframe {
 .zerogrid-full .base h3 , .zerogrid-full .social h3 , .zerogrid-full .form h3 {
 	font-size: 22px !important;
 }
-.social, .base, .form {
-	height: 230px !important;
+.social {
+	height: 140px !important;
+}
+.form {
+	height: 210px !important;
+}
+.base {
+	height: 190px !important;
 }
 .zerogrid-full .social h3 {
 	margin-left: -40px !important;
@@ -1251,9 +1257,6 @@ iframe {
 	width: 100% !important;
 	margin: 0 !important;
 }
-.social {
-	height: 200px !important;
-}
 .zerogrid-full .n4sbutton-wrapper {
 	background-color: #FFF;
 }
@@ -1353,9 +1356,6 @@ iframe {
 	height:50px !important;
 	width: 50px !important;
 }
-.base, .form {
-	height:220px !important;
-	}
 .base h3, .form h3 {
 	margin-left: 75px !important;
 	margin-top: 20px !important;
@@ -1364,7 +1364,7 @@ iframe {
 	margin-left: 75px !important;
 }
 .base .twitter {
-	margin-left:75px !important;
+	margin-left:50px !important;
 }
 .field1 {
 	margin-top: 20px !important;
@@ -1783,6 +1783,7 @@ i:hover {
 .base {
 	height:400px;
 	background-color:#f2f2f2;
+	opacity: 0.85;
 }
 .base h3 {
 	font-size:28px;
@@ -1821,11 +1822,13 @@ i:hover {
 	text-align:center;
 	height: 400px;
 	background-color:#f2f2f2;
+	opacity: 0.85;
 }
 .form {
 	text-align:center;
 	height:400px;
 	background-color:#f2f2f2;
+	opacity: 0.85;
 }
 
 .form .field1{
