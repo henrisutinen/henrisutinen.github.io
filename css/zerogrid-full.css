@@ -203,11 +203,10 @@ Author URI: http://www.zerotheme.com/
 }
 .zerogrid-full .text-agile {
 	line-height: 55px;
-	color: #fff;
-	font-family:kompani;
+	color: #f2f2f2;
+	font-family:Neou;
 	font-size: 52px;
-	margin-left: 70px;
-	margin-right: 35px;
+	margin-left: 150px;
 	margin-top: 80px;
 	border-top: 8px solid #8AB839;
 }
@@ -279,6 +278,7 @@ Author URI: http://www.zerotheme.com/
 .zerogrid-full .context {
 	font-size: 20px;
 	text-align: left;
+	line-height: 24px;
 	font-family:source;
 	margin: 55px 25% 60px 25%;
 	color: #434F5B;
@@ -305,7 +305,7 @@ Author URI: http://www.zerotheme.com/
 	font-size: 20px;
 	margin-left:10px;
 	margin-right:10px;
-	font-family:Neou;
+	font-family:source;
 	background-color: #transparent;
 	visibility:hidden;
 	opacity: 0;
@@ -469,7 +469,7 @@ Author URI: http://www.zerotheme.com/
 	margin-top: 40px !important;
 }
 .zerogrid-full .subtext {
-	font-size:15px !important;	
+	font-size:19px !important;	
 }
 }
 
@@ -1462,6 +1462,7 @@ table {
 	text-align: center;
 	background-color: #f2f2f2;
 	width:100%;
+	float:left;
 }
 .zerogrid-full .n4sbutton {
 	margin-bottom: 40px;
@@ -1721,7 +1722,7 @@ table {
 	text-align:center;
 }
 .zerogrid .nav.scroll-to-fixed-fixed { 
-	height: 50px !important;
+	height: 54px !important;
 }
 .zerogrid-full .nav ul li {
 	width: 50%;
@@ -1785,8 +1786,9 @@ i:hover {
 }
 .base {
 	height:400px;
-	background-color:#f2f2f2;
-	opacity: 0.85;
+	background: rgb(242, 242, 242); /* Fall-back for browsers that don't
+                                    support rgba */
+    background: rgba(242, 242, 242, .9);
 }
 .base h3 {
 	font-size:28px;
@@ -1824,14 +1826,16 @@ i:hover {
 .social {
 	text-align:center;
 	height: 400px;
-	background-color:#f2f2f2;
-	opacity: 0.85;
+	background: rgb(242, 242, 242); /* Fall-back for browsers that don't
+                                    support rgba */
+    background: rgba(242, 242, 242, .9);
 }
 .form {
 	text-align:center;
 	height:400px;
-	background-color:#f2f2f2;
-	opacity: 0.85;
+	background: rgb(242, 242, 242); /* Fall-back for browsers that don't
+                                    support rgba */
+    background: rgba(242, 242, 242, .9);
 }
 
 .form .field1{
@@ -1869,6 +1873,10 @@ input, textarea, select {
 	background-size:cover;
 	margin: 20px auto;
 	background-image:url(../img/av_logo.svg);
+}
+.closeX {
+	float:right;
+	margin:25px 25px 0px 0px;
 }
 /* CSS styling for font-face fonts */
 
