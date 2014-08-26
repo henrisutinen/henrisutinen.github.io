@@ -1077,31 +1077,3 @@ table {
 	font-size:22px;
 	margin-bottom: 15px;
 	}
-/* CSS styling for font-face fonts */
-
-
-@font-face {
-    font-family: liberationsans;
-    src:url(../fonts/LiberationSans-Regular.ttf);
-}
-@font-face {
-    font-family: webly;
-    src:url(../fonts/weblysleekuil.ttf);
-}
-
-@font-face {
-    font-family: kompani;
-    src:url(../fonts/KompaniHHF.otf);
-}
-@font-face {
-	font-family:source;
-	src:url(../fonts/SourceSansPro-Regular.ttf);
-}
-@font-face {
-  font-family: Neou;
-  src: url('../fonts/neou-bold.eot')
-  src: url('../fonts/neou-bold.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/neou-bold.woff') format('woff'),
-       url('../fonts/neou-bold.ttf') format('truetype'),
-       url('../fonts/neou-bold.svg#Neou-Bold') format('svg');
-}
