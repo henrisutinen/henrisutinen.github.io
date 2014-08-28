@@ -60,7 +60,23 @@ Author URI: http://www.zerotheme.com/
 #picheight {
 	height:506px;
 }
-
+.portfolio-margin1 {
+	margin-right: 2.5%;
+	margin-left: 2.5%;
+	margin-top:2.5%;
+	width: 30% !important;
+	border-radius: 8px;
+	float: left;
+	display: inline-block;
+}
+.portfolio-margin2 {
+	margin-right: 2.5%;
+	margin-top:2.5%;
+	width: 30% !important;
+	border-radius: 8px;
+	float: left;
+	display: inline-block;
+}
 .zerogrid-full .col-1-2-photo {
 	width: 50%;
 	background-image:url(../img/leds.jpg);
@@ -295,7 +311,7 @@ Author URI: http://www.zerotheme.com/
 	text-align: center;
 	line-height: 470px;
 	font-family:source;
-	font-size: 38px;
+	font-size: 28px;
 	color: #fff;
 }
 .zerogrid-full .logoshere {
@@ -471,12 +487,29 @@ Author URI: http://www.zerotheme.com/
 .zerogrid-full .subtext {
 	font-size:19px !important;	
 }
+#photo3, #photo4, #photo5 {
+	margin-bottom: 2.5% !important;
 }
-
+}
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
 .zerogrid-full {
 	width: 100%;
-	background-color: #fff;
+}
+.zerogrid-full .row {
+	background-color:transparent !important;
+}
+.portfolio-margin1 {
+	margin-right: 2.5%;
+	margin-left: 2.5%;
+	margin-bottom:2.5%;
+	width: 30% !important;
+	border-radius: 8px;
+}
+.portfolio-margin2 {
+	margin-right: 2.5%;
+	margin-bottom:2.5%;
+	width: 30% !important;
+	border-radius: 8px;
 }
 .zerogrid-full .col-1-3, .zerogrid-full .col-2-3, .zerogrid-full .col-1-3-1 {
 	width: 33.33%!important;
@@ -557,7 +590,6 @@ Author URI: http://www.zerotheme.com/
 	}
 .zerogrid-full .n4sbutton-wrapper {
 	margin-bottom: 30px !important;
-	margin-top: 60px !important;
 }
 .zerogrid-full .titlehere {
 	font-size: 20px !important;
@@ -691,15 +723,30 @@ iframe {
 @media only screen and (min-width: 620px) and (max-width: 767px) {
 .zerogrid-full {
 	width: 100%;
-	background-color: #fff;
 }
 #logo1, #logo2, #logo3, #logo4 {
 	height: 150px;
 	line-height: 150px;
 }
+.portfolio-margin1 {
+	margin-right: 2.5%;
+	margin-left: 2.5%;
+	margin-bottom:2.5%;
+	width: 30% !important;
+	border-radius: 8px;
+}
+.portfolio-margin2 {
+	margin-right: 2.5%;
+	margin-bottom:2.5%;
+	width: 30% !important;
+	border-radius: 8px;
+}
 .zerogrid-full .col-1-3, .zerogrid-full .col-2-3, .zerogrid-full .col-1-3-1 {
 	width: 100%!important;
 	background-color: #f2f2f2 !important;
+}
+.zerogrid-full .row {
+	background-color:transparent !important;
 }
 .zerogrid-full .col-1-2-photo {
 	display:none;
@@ -751,8 +798,26 @@ iframe {
 	margin-top: 40px !important;
 }
 #photo1, #photo2, #photo3, #photo4, #photo5, #photo6, #photo7, #photo8 {
-	height: 215px !important;
-	width: 50% !important;
+	height: 193px !important;
+	width: 45% !important;
+}
+.portfolio-margin1 {
+	margin-right: 2.5%;
+	margin-left: 2.5%;
+	margin-top:2.5%;
+	width: 30% !important;
+	border-radius: 8px;
+	float: left;
+	display: inline-block;
+}
+.portfolio-margin2 {
+	margin-right: 2.5%;
+	margin-left: 2.5%;
+	margin-top:2.5%;
+	width: 30% !important;
+	border-radius: 8px;
+	float: left;
+	display: inline-block;
 }
 .zerogrid-full .text-section {
 	margin: 20px 50px 20px 50px !important;
@@ -898,6 +963,24 @@ iframe {
 	width: 100%!important;
 	background-color: #f2f2f2!important;
 }
+.portfolio-margin1 {
+	margin-right: 2.5%;
+	margin-left: 2.5%;
+	margin-top:2.5%;
+	width: 30% !important;
+	border-radius: 8px;
+	float: left;
+	display: inline-block;
+}
+.portfolio-margin2 {
+	margin-right: 2.5%;
+	margin-left: 2.5%;
+	margin-top:2.5%;
+	width: 30% !important;
+	border-radius: 8px;
+	float: left;
+	display: inline-block;
+}
 .zerogrid-full .col-1-2-photo {
 	display:none;
 }
@@ -905,7 +988,6 @@ iframe {
 	opacity: 1.0 !important;
 }
 .zerogrid-full #picheight {
-	height: 400px !important;
 }
 .zerogrid-full .base, .zerogrid-full .form {
 	width:50% !important;
@@ -921,8 +1003,11 @@ iframe {
 	
 }
 #photo1, #photo2, #photo3, #photo4, #photo5, #photo6, #photo7, #photo8 {
-	height: 190px !important;
-	width: 50% !important;	
+	height: 170px !important;
+	width: 45% !important;	
+}
+#photo5, #photo4 {
+	margin-bottom: 2.5% !important;
 }
 #logo1, #logo2, #logo3, #logo4 {
 	height: 120px !important;
@@ -1345,7 +1430,28 @@ iframe {
 	}
 #photo1, #photo2, #photo3, #photo4, #photo5, #photo6, photo7, #photo8 {
 	height: 120px !important;
-	width: 50% !important;
+	width: 45% !important;
+}
+#photo5, #photo4 {
+	margin-bottom: 2.5% !important;
+}
+.portfolio-margin1 {
+	margin-right: 2.5%;
+	margin-left: 2.5%;
+	margin-top:2.5%;
+	width: 30% !important;
+	border-radius: 8px;
+	float: left;
+	display: inline-block;
+}
+.portfolio-margin2 {
+	margin-right: 2.5%;
+	margin-left: 2.5%;
+	margin-top:2.5%;
+	width: 30% !important;
+	border-radius: 8px;
+	float: left;
+	display: inline-block;
 }
 .zerogrid-full .logoshere {
 	font-size:12px !important;
