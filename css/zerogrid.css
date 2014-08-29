@@ -545,7 +545,7 @@ body {
 .zerogrid .col-full-example2 {
 	/*background-image:url(../img/bg_low.jpg);*/
 	background-repeat:no-repeat;
-	height: 300px;
+	height: 200px;
 	clear: both;
 }
 .zerogrid .col-full-example3 {
@@ -607,7 +607,7 @@ body {
 .zerogrid .text-agile {
 	line-height: 65px;
 	color:#2e2e2e;
-	font-family:Neou;
+	font-family:dosis2;
 	font-size: 62px;
 	margin-left: 50px;
 	margin-right: 35px;
@@ -637,7 +637,7 @@ body {
 .zerogrid .ourvision-text {
 	line-height: 40px;
 	text-align: center;
-	font-family:source;
+	font-family: dosis2;
 	color: #fff;
 	font-size: 42px;
 	padding-left: 0px;

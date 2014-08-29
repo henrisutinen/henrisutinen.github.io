@@ -229,16 +229,16 @@ Author URI: http://www.zerotheme.com/
 .zerogrid-full .text-success {
 	line-height: 55px;
 	float:right;
-	font-family:Neou;
+	font-family:dosis2;
 	color: #474242;
-	font-size: 48px;
+	font-size: 68px;
 	margin-right: 80px;
 	margin-top: 150px;
 	border-top: 8px solid #8AB839;
 }
 .zerogrid-full .text-section {
 	line-height: 45px;
-	font-family:Neou;
+	font-family:dosis2;
 	color: #8AB839;
 	font-size: 38px;
 	margin-top: 120px;
@@ -279,7 +279,7 @@ Author URI: http://www.zerotheme.com/
 }
 .zerogrid-full .orangetext {
 	font-size: 38px;
-	font-family:Neou;
+	font-family:dosis;
 	text-align: left;
 	margin: 100px 15% 55px 15%;
 	color: #8AB839;
@@ -310,7 +310,7 @@ Author URI: http://www.zerotheme.com/
 .zerogrid-full .example2 {
 	text-align: center;
 	line-height: 470px;
-	font-family:source;
+	font-family:dosis2;
 	font-size: 28px;
 	color: #fff;
 }
@@ -1901,21 +1901,21 @@ i:hover {
 	color: #8AB839;
 	margin-top: 50px;
 	margin-left: 100px;
-	font-family: Neou;
+	font-family: dosis2;
 }
 .form h3 {
 	font-size:28px;
 	color: #8AB839;
 	margin-top: 50px;
 	margin-left: -40px;
-	font-family: Neou;
+	font-family: dosis2;
 }
 .social h3 {
 	font-size:28px;
 	color: #8AB839;
 	margin-top: 50px;
 	margin-left: 10px;
-	font-family: Neou;
+	font-family: dosis2;
 	line-height: 28px;
 }
 .base p {
@@ -1984,6 +1984,31 @@ input, textarea, select {
 	float:right;
 	margin:25px 25px 0px 0px;
 }
+/*Styles for light box*/
+#lightbox {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 500px;
+	margin-left: -250px;
+	background: #fff;
+	z-index: 1001;
+	display: none;
+}
+#lightbox-shadow {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	filter: alpha(opacity=75);
+	-moz-opacity: 0.75;
+	-khtml-opacity: 0.75;
+	opacity: 0.75;
+	z-index: 1000;
+	display: none;
+}
 /* CSS styling for font-face fonts */
 
 
@@ -2015,4 +2040,13 @@ input, textarea, select {
 @font-face {
   font-family: 'Neou';
   src:url(../fonts/neou-bold.eot) format('eot'),url(../fonts/neou-bold.woff) format('woff'), url(../fonts/neou-bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: dosis;
+    src:url(../fonts/Dosis-Light.otf);
+}
+@font-face {
+    font-family: dosis2;
+    src:url(../fonts/Dosis-Regular.otf);
 }
