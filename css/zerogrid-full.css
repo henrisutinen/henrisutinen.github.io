@@ -1976,6 +1976,20 @@ input, textarea, select {
 /*.html_logo:hover, .av_logo:hover, .programming_logo:hover {
 	-webkit-animation: flip 1s;
 }*/
+#rue {
+background-image:url(../img/unity_mockup_logo_hover.jpg) no-repeat -9999px -9999px; 
+}
+#rue2 {
+background-image:url(../img/softwares_hover.png) no-repeat -9999px -9999px; 
+}#rue3 {
+background-image:url(../img/responsiveness_low_hover.jpg) no-repeat -9999px -9999px; 
+}#rue4 {
+background-image:url(../img/lotta_hover.jpg) no-repeat -9999px -9999px; 
+}#rue5 {
+background-image:url(../img/3logos_hover.jpg) no-repeat -9999px -9999px; 
+}#rue6 {
+background-image:url(../img/databases_hover.jpg) no-repeat -9999px -9999px; 
+}
 .fade {
 	color:#8AB839;
 	-moz-animation: fadeInDownBig 1s;
