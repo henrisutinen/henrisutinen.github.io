@@ -1976,7 +1976,19 @@ input, textarea, select {
 /*.html_logo:hover, .av_logo:hover, .programming_logo:hover {
 	-webkit-animation: flip 1s;
 }*/
-
+.fade {
+	color:#8AB839;
+	-moz-animation: fadeInDownBig 1s;
+    -webkit-animation: fadeInDownBig 1s;
+    animation: fadeInDownBig 1s;
+}
+.fade2 {
+	-moz-animation: fadeInLeftBig 1s;
+    -webkit-animation: fadeInLeftBig 1s;
+    animation: fadeInLeftBig 1s;
+	 -webkit-animation-delay: 1s;
+	animation-delay:1s;
+}
 .box.animoi { 
     -moz-animation: flip 1s;
     -webkit-animation: flip 1s;
