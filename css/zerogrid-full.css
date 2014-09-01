@@ -345,32 +345,32 @@ Author URI: http://www.zerotheme.com/
 .zerogrid-full #photo1 {
 	background-image:url(../img/responsiveness_low.jpg);
 	background-size: cover;
-	height: 400px;
+	height: 350px;
 }
 .zerogrid-full #photo2 {
 	background-image:url(../img/lotta.jpg);
 	background-size: cover;
-	height: 400px;
+	height: 350px;
 }
 .zerogrid-full #photo3 {
 	background-image:url(../img/3logos.jpg);
 	background-size: cover;
-	height: 400px;
+	height: 350px;
 }
 .zerogrid-full #photo4 {
 	background-image:url(../img/softwares.png);
 	background-size: cover;
-	height: 400px;
+	height: 350px;
 }
 .zerogrid-full #photo5 {
 	background-image:url(../img/unity_mockup_logo.png);
 	background-size: cover;
-	height: 400px;
+	height: 350px;
 }
 .zerogrid-full #photo6 {
 	background-image:url(../img/databases.jpg);
 	background-size: cover;
-	height: 400px;
+	height: 350px;
 }
 .zerogrid-full #logo1:hover {
 	background-image:url(../img/unity_btn_orange.png);
@@ -820,7 +820,8 @@ iframe {
 	display: inline-block;
 }
 .zerogrid-full .text-section {
-	margin: 20px 50px 20px 50px !important;
+	margin: 20px 0px 20px 0px !important;
+	text-align:center !important;
 }
 .zerogrid-full footer {
 	opacity: 1.0 !important;
@@ -1878,10 +1879,10 @@ i:hover {
 	margin-top: 650px;
 	color:#fff;
 }
-.arrow:hover {
+/*.arrow:hover {
   -webkit-animation: bounce 1s;
     animation: bounce 1s;
-}
+}*/
 .subtext {
 	font-style:italic;
 	font-size:13px;
@@ -1952,30 +1953,43 @@ input, textarea, select {
    -webkit-appearance: none;
    width: 175px;
    font-family:source;
-   color: #f2f2f2;
    border: 1px solid #4d4d4d;
    box-sizing: border-box;
    border-radius: 3px;
    margin-bottom: 5px;
 }
 .programming_logo {
-	height: 150px;
-	width: 150px;
+	height: 130px;
+	width: 130px;
 	background-size:cover;
 	margin: 20px auto;
 	background-image:url(../img/programming_logo.png);
 }
 
 .html_logo {
-	height: 150px;
-	width: 150px;
+	height: 130px;
+	width: 130px;
 	background-size:cover;
 	margin: 20px auto;
 	background-image:url(../img/html_logo.png);
 }
+/*.html_logo:hover, .av_logo:hover, .programming_logo:hover {
+	-webkit-animation: flip 1s;
+}*/
+
+.box.animoi { 
+    -moz-animation: flip 1s;
+    -webkit-animation: flip 1s;
+    animation: flip 1s;
+}
+.arrow.bounce { 
+    -moz-animation: bounce 1s;
+    -webkit-animation:bounce 1s;
+    animation:bounce 1s;
+}
 .av_logo {
-	height: 150px;
-	width: 150px;
+	height: 130px;
+	width: 130px;
 	background-size:cover;
 	margin: 20px auto;
 	background-image:url(../img/av_logo.svg);

@@ -38,6 +38,7 @@
 			});
     });
 </script>
+
     </head>
     <body>
 <div class="zerogrid" id="top">
@@ -68,7 +69,7 @@
     <div class="col-1-2" id="picheight">
           <p class="orangetext">I am Henri Sutinen, 23-years-old media engineering student.</p>
           <p class="context">First of all welcome to my web site. Here I present myself; who am I, what I can do, what I've done and what I can do. Hope you enjoy your stay.</p>
-          <div class="n4sbutton-wrapper" ><a href="http://www.n4s.fi/en/" target="_blank" class="n4sbutton smoothScroll">Download my CV</a></div>
+          <div class="n4sbutton-wrapper" ><a href="files/ansioluettelo_henri_sutinen.docx" target="_blank" class="n4sbutton smoothScroll">Download my CV</a></div>
         </div>
     <div class="col-1-2-photo">
 		<p class="example2">Presentation video coming soon!</p>
@@ -115,17 +116,17 @@
     <div class="col-full-example6">
           <div class="col-1-3-1">
         <p class="text-section">Web skills</p>
-        <div class="html_logo"></div>
+        <div class="html_logo box"></div>
         <p class="context">I have strong expertise in web development and design. I can create responsive web sites out of scratch or based on ready-made layouts. I love to take advantage of new features of HTML5 and CSS3 in my works. Web programming and web applications are also my cup of tea.</p>
       </div>
           <div class="col-1-3">
         <p class="text-section">Programming</p>
-        <div class="programming_logo"></div>
+        <div class="programming_logo box"></div>
         <p class="context">I am familiar with programming espicially JavaScript and PHP, but I'm also familiar with C# and Java. I am also more than eager to develop my skills and learn new things.</p>
       </div>
           <div class="col-1-3">
         <p class="text-section">Audio & Video</p>
-        <div class="av_logo zoomIn"></div>
+        <div class="av_logo box"></div>
         <p class="context">I can create nice looking videos and also do audio editing. I have experience working with softwares like Adobe Premiere Pro, After Effects and Audition.</p>
       </div>
         <div class="n4sbutton-wrapper"><a href="work.html" class="ourwork-button button" id="info">Contact me!</a></div>
@@ -175,7 +176,7 @@
             </div>
             <div class="col-1-3 form">
             	<h3>Contact</h3>
-            	<form method="POST" action="http://smvpelkonen.dy.fi/delete/php_form/sendForm.php">
+            	<form method="POST" action="http://student.labranet.jamk.fi/~F6818/contact/form.php">
 				<input type="email" class="field1" name="email" placeholder="Your email address here" required><br>
 				<textarea rows="3" cols="24" name="message"  placeholder="Your message here" required></textarea><br>
 				<input type="submit" name="submit" value="Send!" class="roger-button submit">	
@@ -204,8 +205,23 @@
     </div>
 <!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>--> 
 <script type="text/javascript" src="js/smoothscroll.js"></script> 
+	<script>
+	$(".box").bind("webkitAnimationEnd mozAnimationEnd animationEnd", function(){
+  $(this).removeClass("animoi")  
+})
+
+$(".box").hover(function(){
+  $(this).addClass("animoi");        
+})
+</script>
 <script>
-	
+	$(".arrow").bind("webkitAnimationEnd mozAnimationEnd animationEnd", function(){
+  $(this).removeClass("bounce")  
+})
+
+$(".arrow").hover(function(){
+  $(this).addClass("bounce");        
+})
 </script>
 <script>
         $('body').mousemove(function(e){

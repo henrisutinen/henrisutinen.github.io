@@ -225,6 +225,9 @@ body {
 .zerogrid {
 	width: 100%;
 }
+body {
+	background-image:url(../img/keyboard_mobile.jpg) !important;
+}
 .zerogrid .col-1-4
  {
 	display:none;
